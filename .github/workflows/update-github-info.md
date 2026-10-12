@@ -17,6 +17,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 
 safe-outputs:
   create-pull-request:
@@ -28,5 +29,6 @@ Update the repository's GitHub information for Mona:
 
 1. Read `notes/mona-notes.md` for Mona's guidance and priorities.
 2. Fetch `https://github.blog/latest/` and `https://github.blog/changelog/` with the web-fetch tool.
-3. Update `site/content/github-info.md` with relevant, current information from those sources while preserving the file's existing style and structure.
-4. Open a pull request with the changes for Mona to review. Do not write directly to `main`.
+3. Fetch `https://awesome-copilot.github.com/workflows/` with the web-fetch tool as an Awesome Copilot workflows source.
+4. Update `site/content/github-info.md` with relevant, current information from those sources while preserving the file's existing style and structure.
+5. Open a pull request with the changes for Mona to review. Do not write directly to `main`.
