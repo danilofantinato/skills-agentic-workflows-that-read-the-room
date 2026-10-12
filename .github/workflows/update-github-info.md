@@ -19,7 +19,7 @@ network:
     - github.com
     - awesome-copilot.github.com
 
-steps:
+pre-agent-steps:
   - name: Fetch update sources
     run: |
       set -euo pipefail
